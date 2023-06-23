@@ -1,7 +1,7 @@
 {
-	"name": "starter-apps-crb",
-	"version": "1.0.4",
-	"description" : "plantilla desarrollo de aplicaciones",
+	"name": "app-crb",
+	"version": "1.0.0",
+	"description": "plantilla desarrollo de aplicaciones",
 	"author": "Mateo Niampira <a.aplicaciones2@cruzrojabogota.org.co>",
 	"scripts": {
 		"dev": "vite dev",
@@ -21,12 +21,15 @@
 		"postcss": "^8.4.24",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
+		"prisma": "^4.16.1",
 		"svelte": "^4.0.0",
 		"tailwindcss": "^3.3.2",
 		"vite": "^4.3.6"
 	},
 	"dependencies": {
+		"@azure/msal-node": "^1.17.3",
+		"@fortawesome/fontawesome-free": "^6.4.0",
+		"@prisma/client": "^4.16.1",
 		"dotenv": "^16.3.1"
-	},
-	"bin": "./bin/global.cjs"
+	}
 }

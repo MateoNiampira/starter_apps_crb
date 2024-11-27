@@ -1,36 +1,34 @@
 {
-	"name": "app-crb",
-	"version": "1.0.0",
-	"description": "plantilla desarrollo de aplicaciones",
-	"author": "Mateo Niampira <a.aplicaciones2@cruzrojabogota.org.co>",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-node": "^1.2.4",
-		"@sveltejs/kit": "^1.20.4",
-		"autoprefixer": "^10.4.14",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-svelte": "^2.30.0",
-		"postcss": "^8.4.24",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.10.1",
-		"prisma": "^4.16.1",
-		"svelte": "^4.0.0",
-		"tailwindcss": "^3.3.2",
-		"vite": "^4.3.6"
-	},
-	"type": "module",
-	"dependencies": {
-		"@azure/msal-node": "^1.17.3",
-		"@fortawesome/fontawesome-free": "^6.4.0",
-		"@prisma/client": "^4.16.1",
-		"dotenv": "^16.3.1"
-	}
+  "name": "prueba2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "windows": "set NODE_ENV=production && set PORT=443 && next start",
+    "ubuntu": "export NODE_ENV=production && export PORT=443 && node server.js"
+  },
+  "dependencies": {
+    "@formkit/tempo": "^0.1.2",
+    "@material-tailwind/react": "^2.1.10",
+    "@reduxjs/toolkit": "^2.3.0",
+    "formik": "^2.4.6",
+    "next": "15.0.3",
+    "next-auth": "^4.24.10",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-icons": "^5.3.0",
+    "react-redux": "^9.1.2",
+    "react-toastify": "^10.0.6",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.1"
+  }
 }
